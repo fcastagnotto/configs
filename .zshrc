@@ -109,3 +109,14 @@ export VISUAL="nano"
 alias t='tmux'
 alias sublime='/opt/sublime_text2/sublime_text'
 alias c='clear'
+
+alias sugo='sudo'
+
+
+#Keypad - mechanical keyboard
+bindkey -s "^[OM" "^M"  #enter numpad
+bindkey -s "^[Oo" "/"
+bindkey -s "^[Oj" "*"
+bindkey -s "^[Om" "-"
+bindkey -s "^[Ok" "+"
+
